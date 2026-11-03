@@ -1,0 +1,198 @@
+{
+  "engine2.dll": {
+    "CEntityAttributeTable": {
+      "m_Attributes": 0,
+      "m_Names": 40
+    },
+    "CEntityComponentHelper": {
+      "m_flags": 8,
+      "m_nPriority": 24,
+      "m_pInfo": 16,
+      "m_pNext": 32
+    },
+    "CEntityIdentity": {
+      "m_PathIndex": 64,
+      "m_designerName": 32,
+      "m_fDataObjectTypes": 60,
+      "m_flags": 48,
+      "m_name": 24,
+      "m_nameStringTableIndex": 20,
+      "m_pAttributes": 72,
+      "m_pNext": 88,
+      "m_pNextByClass": 104,
+      "m_pPrev": 80,
+      "m_pPrevByClass": 96,
+      "m_worldGroupId": 56
+    },
+    "CEntityInstance": {
+      "m_CScriptComponent": 40,
+      "m_iszPrivateVScripts": 8,
+      "m_pEntity": 16
+    },
+    "CNetworkVarChainer": {
+      "m_PathIndex": 32
+    },
+    "CPulseCell_Base": {
+      "m_nEditorNodeID": 8
+    },
+    "CPulseCell_BaseYieldingInflow": {
+      "m_BaseFlow_OnAfterCancel": 72,
+      "m_BaseFlow_WhileActive": 144
+    },
+    "CPulseCell_Inflow_BaseEntrypoint": {
+      "m_EntryChunk": 72,
+      "m_RegisterMap": 80
+    },
+    "CPulseCell_Inflow_Method": {
+      "m_Args": 160,
+      "m_Description": 144,
+      "m_MethodName": 128,
+      "m_ReturnValues": 176,
+      "m_bIsPublic": 152
+    },
+    "CPulseCell_Inflow_Wait": {
+      "m_WakeResume": 216
+    },
+    "CScriptComponent": {
+      "m_scriptClassName": 48
+    },
+    "EngineLoopState_t": {
+      "m_nPlatWindowHeight": 28,
+      "m_nPlatWindowWidth": 24,
+      "m_nRenderHeight": 36,
+      "m_nRenderWidth": 32
+    },
+    "EntComponentInfo_t": {
+      "m_nFlags": 36,
+      "m_nRuntimeIndex": 32,
+      "m_pBaseClassComponentHelper": 88,
+      "m_pCPPClassname": 8,
+      "m_pName": 0,
+      "m_pNetworkDataReferencedDescription": 16,
+      "m_pNetworkDataReferencedPtrPropDescription": 24
+    },
+    "EntityIOQueuePrioritizedEvent_t": {
+      "m_PulseArguments": 64,
+      "m_flFireTime": 4,
+      "m_hActivator": 32,
+      "m_hCaller": 36,
+      "m_hEntTarget": 40,
+      "m_pTarget": 16,
+      "m_pTargetInput": 24,
+      "m_paramMap": 208,
+      "m_targetType": 8,
+      "m_variantValue": 48
+    },
+    "EventAdvanceTick_t": {
+      "m_nCurrentTick": 48,
+      "m_nCurrentTickThisFrame": 52,
+      "m_nTotalTicks": 60,
+      "m_nTotalTicksThisFrame": 56
+    },
+    "EventAppShutdown_t": {
+      "m_nDummy0": 0
+    },
+    "EventBugBugComplete_t": {
+      "m_pPayload": 0
+    },
+    "EventClientFrameSimulate_t": {
+      "m_LoopState": 0,
+      "m_bScheduleSendTickPacket": 48,
+      "m_flFrameTime": 44,
+      "m_flRealTime": 40
+    },
+    "EventClientOutput_t": {
+      "m_LoopState": 0,
+      "m_bRenderOnly": 52,
+      "m_flRealTime": 44,
+      "m_flRenderFrameTimeUnbounded": 48,
+      "m_flRenderTime": 40
+    },
+    "EventClientPollInput_t": {
+      "m_LoopState": 0,
+      "m_flRealTime": 40
+    },
+    "EventClientPollNetworking_t": {
+      "m_nTickCount": 0
+    },
+    "EventClientPostOutput_t": {
+      "m_LoopState": 0,
+      "m_bRenderOnly": 56,
+      "m_flRenderFrameTime": 48,
+      "m_flRenderFrameTimeUnbounded": 52,
+      "m_flRenderTime": 40
+    },
+    "EventClientPreOutput_t": {
+      "m_LoopState": 0,
+      "m_bRenderOnly": 68,
+      "m_flRealTime": 64,
+      "m_flRenderFrameTime": 48,
+      "m_flRenderFrameTimeUnbounded": 56,
+      "m_flRenderTime": 40
+    },
+    "EventClientProcessGameInput_t": {
+      "m_LoopState": 0,
+      "m_flFrameTime": 44,
+      "m_flRealTime": 40
+    },
+    "EventClientProcessInput_t": {
+      "m_LoopState": 0,
+      "m_flRealTime": 40,
+      "m_flTickInterval": 44,
+      "m_flTickStartTime": 48
+    },
+    "EventClientProcessNetworking_t": {
+      "m_nTickCount": 0
+    },
+    "EventFrameBoundary_t": {
+      "m_flFrameTime": 0
+    },
+    "EventPostAdvanceTick_t": {
+      "m_nCurrentTick": 48,
+      "m_nCurrentTickThisFrame": 52,
+      "m_nTotalTicks": 60,
+      "m_nTotalTicksThisFrame": 56
+    },
+    "EventPostDataUpdate_t": {
+      "m_nCount": 0
+    },
+    "EventPreDataUpdate_t": {
+      "m_nCount": 0
+    },
+    "EventProfileStorageAvailable_t": {
+      "m_nSplitScreenSlot": 0
+    },
+    "EventServerPostAdvanceTick_t": {
+      "m_bLastTickBeforeClientUpdate": 64
+    },
+    "EventServerPostSimulate_t": {
+      "m_bLastTickBeforeClientUpdate": 48
+    },
+    "EventSetTime_t": {
+      "m_LoopState": 0,
+      "m_flRealTime": 48,
+      "m_flRenderFrameTime": 64,
+      "m_flRenderFrameTimeUnbounded": 72,
+      "m_flRenderFrameTimeUnscaled": 80,
+      "m_flRenderTime": 56,
+      "m_flTickRemainder": 88,
+      "m_nClientOutputFrames": 40
+    },
+    "EventSimpleLoopFrameUpdate_t": {
+      "m_LoopState": 0,
+      "m_flFrameTime": 44,
+      "m_flRealTime": 40
+    },
+    "EventSimulate_t": {
+      "m_LoopState": 0,
+      "m_bFirstTick": 40,
+      "m_bLastTick": 41
+    },
+    "GameTick_t": {
+      "m_Value": 0
+    },
+    "GameTime_t": {
+      "m_Value": 0
+    }
+  }
+}

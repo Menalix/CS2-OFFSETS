@@ -1,0 +1,27 @@
+name: Update public offsets
+on:
+  schedule:
+    - cron: '13,43 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: public-offsets-sync
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - name: Fetch validated public dump
+        run: python3 scripts/sync.py
+      - name: Publish changes
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- '*.json'
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update public CS2 offsets'
+            git push
+          fi

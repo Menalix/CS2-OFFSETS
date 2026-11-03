@@ -1,0 +1,70 @@
+{
+  "scenesystem.dll": {
+    "AnimationDecodeDebugDumpElement_t": {
+      "m_decodeOps": 40,
+      "m_decodedAnims": 88,
+      "m_internalOps": 64,
+      "m_modelName": 8,
+      "m_nEntityIndex": 0,
+      "m_poseParams": 16
+    },
+    "AnimationDecodeDebugDump_t": {
+      "m_elems": 8,
+      "m_processingType": 0
+    },
+    "AnimationSnapshotBase_t": {
+      "m_DecodeDump": 152,
+      "m_SnapshotType": 144,
+      "m_bBonesInWorldSpace": 64,
+      "m_bHasDecodeDump": 148,
+      "m_boneSetupMask": 72,
+      "m_boneTransforms": 96,
+      "m_flRealTime": 0,
+      "m_flexControllers": 120,
+      "m_rootToWorld": 16
+    },
+    "AnimationSnapshot_t": {
+      "m_modelName": 280,
+      "m_nEntIndex": 272
+    },
+    "CSSDSEndFrameViewInfo": {
+      "m_ViewName": 8,
+      "m_nViewId": 0
+    },
+    "CSSDSMsg_EndFrame": {
+      "m_Views": 0
+    },
+    "CSSDSMsg_LayerBase": {
+      "m_LayerName": 32,
+      "m_ViewName": 16,
+      "m_displayText": 40,
+      "m_nLayerId": 24,
+      "m_viewId": 0
+    },
+    "CSSDSMsg_ViewRender": {
+      "m_ViewName": 16,
+      "m_viewId": 0
+    },
+    "CSSDSMsg_ViewTarget": {
+      "m_Name": 0,
+      "m_TextureId": 8,
+      "m_nDepth": 36,
+      "m_nFormat": 44,
+      "m_nHeight": 20,
+      "m_nMultisampleNumSamples": 40,
+      "m_nNumMipLevels": 32,
+      "m_nRequestedHeight": 28,
+      "m_nRequestedWidth": 24,
+      "m_nWidth": 16
+    },
+    "CSSDSMsg_ViewTargetList": {
+      "m_Targets": 24,
+      "m_ViewName": 16,
+      "m_viewId": 0
+    },
+    "SceneViewId_t": {
+      "m_nFrameCount": 8,
+      "m_nViewId": 0
+    }
+  }
+}

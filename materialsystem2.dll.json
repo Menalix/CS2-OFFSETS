@@ -1,0 +1,124 @@
+{
+  "materialsystem2.dll": {
+    "MaterialParamBuffer_t": {
+      "m_value": 8
+    },
+    "MaterialParamFloat_t": {
+      "m_flValue": 8
+    },
+    "MaterialParamInt_t": {
+      "m_nValue": 8
+    },
+    "MaterialParamString_t": {
+      "m_value": 8
+    },
+    "MaterialParamTexture_t": {
+      "m_pValue": 8
+    },
+    "MaterialParamVector_t": {
+      "m_value": 8
+    },
+    "MaterialParam_t": {
+      "m_name": 0
+    },
+    "MaterialResourceData_t": {
+      "m_dynamicParams": 112,
+      "m_dynamicTextureParams": 136,
+      "m_floatAttributes": 184,
+      "m_floatParams": 40,
+      "m_intAttributes": 160,
+      "m_intParams": 16,
+      "m_materialName": 0,
+      "m_renderAttributesUsed": 280,
+      "m_shaderName": 8,
+      "m_stringAttributes": 256,
+      "m_textureAttributes": 232,
+      "m_textureParams": 88,
+      "m_vectorAttributes": 208,
+      "m_vectorParams": 64
+    },
+    "PostProcessingBloomParameters_t": {
+      "m_blendMode": 0,
+      "m_flBloomStartValue": 28,
+      "m_flBloomStrength": 4,
+      "m_flBloomThreshold": 16,
+      "m_flBloomThresholdWidth": 20,
+      "m_flBlurBloomStrength": 12,
+      "m_flBlurWeight": 56,
+      "m_flComputeBloomEffectsScale": 44,
+      "m_flComputeBloomLensDirtBlackLevel": 52,
+      "m_flComputeBloomLensDirtStrength": 48,
+      "m_flComputeBloomRadius": 40,
+      "m_flComputeBloomStrength": 32,
+      "m_flComputeBloomThreshold": 36,
+      "m_flScreenBloomStrength": 8,
+      "m_flSkyboxBloomStrength": 24,
+      "m_vBlurTint": 76
+    },
+    "PostProcessingFogScatteringParameters_t": {
+      "m_fCubemapScale": 8,
+      "m_fGradientScale": 16,
+      "m_fRadius": 0,
+      "m_fScale": 4,
+      "m_fVolumetricScale": 12,
+      "m_fWaterDensity": 24,
+      "m_fWaterDepthBlurRadius": 28,
+      "m_fWaterScale": 20
+    },
+    "PostProcessingLocalContrastParameters_t": {
+      "m_flLocalContrastEdgeStrength": 4,
+      "m_flLocalContrastStrength": 0,
+      "m_flLocalContrastVignetteBlur": 16,
+      "m_flLocalContrastVignetteEnd": 12,
+      "m_flLocalContrastVignetteStart": 8
+    },
+    "PostProcessingLocalExposureParameters_t": {
+      "m_fBoostLocalContrast": 12,
+      "m_fHighlightOffsetEV": 4,
+      "m_fShadowOffsetEV": 0,
+      "m_fSigma": 8
+    },
+    "PostProcessingResource_t": {
+      "m_bHasBloomParams": 64,
+      "m_bHasColorCorrection": 288,
+      "m_bHasFogScatteringParams": 289,
+      "m_bHasLocalContrastParams": 244,
+      "m_bHasLocalExposureParams": 324,
+      "m_bHasTonemapParams": 0,
+      "m_bHasVignetteParams": 204,
+      "m_bloomParams": 68,
+      "m_colorCorrectionVolumeData": 272,
+      "m_fogScatteringParams": 292,
+      "m_localConstrastParams": 248,
+      "m_localExposureParams": 328,
+      "m_nColorCorrectionVolumeDim": 268,
+      "m_toneMapParams": 4,
+      "m_vignetteParams": 208
+    },
+    "PostProcessingTonemapParameters_t": {
+      "m_flExposureBias": 0,
+      "m_flExposureBiasHighlights": 40,
+      "m_flExposureBiasShadows": 36,
+      "m_flLinearAngle": 12,
+      "m_flLinearStrength": 8,
+      "m_flLuminanceSource": 32,
+      "m_flMaxHighlightLum": 56,
+      "m_flMaxShadowLum": 48,
+      "m_flMinHighlightLum": 52,
+      "m_flMinShadowLum": 44,
+      "m_flShoulderStrength": 4,
+      "m_flToeDenom": 24,
+      "m_flToeNum": 20,
+      "m_flToeStrength": 16,
+      "m_flWhitePoint": 28
+    },
+    "PostProcessingVignetteParameters_t": {
+      "m_flFeather": 20,
+      "m_flRadius": 12,
+      "m_flRoundness": 16,
+      "m_flVignetteStrength": 0,
+      "m_vCenter": 4,
+      "m_vColorTint": 24
+    }
+  }
+}

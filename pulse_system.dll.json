@@ -1,0 +1,404 @@
+{
+  "pulse_system.dll": {
+    "CPulseBreakpointLocation": {
+      "m_NodeID": 0,
+      "m_PortName": 24,
+      "m_SequencePoint": 8,
+      "m_bDeferBreak": 40
+    },
+    "CPulseCell_Base": {
+      "m_nEditorNodeID": 8
+    },
+    "CPulseCell_BaseLerp": {
+      "m_WakeResume": 216
+    },
+    "CPulseCell_BaseYieldingInflow": {
+      "m_BaseFlow_OnAfterCancel": 72,
+      "m_BaseFlow_WhileActive": 144
+    },
+    "CPulseCell_BooleanSwitchState": {
+      "m_Condition": 216,
+      "m_WhenFalse": 432,
+      "m_WhenTrue": 360
+    },
+    "CPulseCell_CursorQueue": {
+      "m_nCursorsAllowedToRunParallel": 296
+    },
+    "CPulseCell_ExampleSelector": {
+      "m_OutflowList": 72
+    },
+    "CPulseCell_FireCursors": {
+      "m_OnFinished": 248,
+      "m_Outflows": 216,
+      "m_bWaitForChildOutflows": 240
+    },
+    "CPulseCell_Inflow_BaseEntrypoint": {
+      "m_EntryChunk": 72,
+      "m_RegisterMap": 80
+    },
+    "CPulseCell_Inflow_EntOutputHandler": {
+      "m_ExpectedParamType": 160,
+      "m_SourceEntity": 128,
+      "m_SourceOutput": 144
+    },
+    "CPulseCell_Inflow_EventHandler": {
+      "m_EventName": 128
+    },
+    "CPulseCell_Inflow_GraphHook": {
+      "m_HookName": 128
+    },
+    "CPulseCell_Inflow_Method": {
+      "m_Args": 160,
+      "m_Description": 144,
+      "m_MethodName": 128,
+      "m_ReturnValues": 176,
+      "m_bIsPublic": 152
+    },
+    "CPulseCell_Inflow_ObservableVariableListener": {
+      "m_bSelfReference": 130,
+      "m_nBlackboardReference": 128
+    },
+    "CPulseCell_Inflow_Wait": {
+      "m_WakeResume": 216
+    },
+    "CPulseCell_Inflow_Yield": {
+      "m_UnyieldResume": 216
+    },
+    "CPulseCell_InlineNodeSkipSelector": {
+      "m_FailOutflow": 104,
+      "m_PassOutflow": 80,
+      "m_bAnd": 76,
+      "m_nFlowNodeID": 72
+    },
+    "CPulseCell_IntervalTimer": {
+      "m_Completed": 216,
+      "m_OnInterval": 288
+    },
+    "CPulseCell_LimitCount": {
+      "m_nLimitCount": 72
+    },
+    "CPulseCell_Outflow_CycleOrdered": {
+      "m_Outputs": 72
+    },
+    "CPulseCell_Outflow_CycleRandom": {
+      "m_Outputs": 72
+    },
+    "CPulseCell_Outflow_CycleShuffled": {
+      "m_Outputs": 72
+    },
+    "CPulseCell_Outflow_TestExplicitYesNo": {
+      "m_No": 144,
+      "m_Yes": 72
+    },
+    "CPulseCell_Outflow_TestRandomYesNo": {
+      "m_No": 144,
+      "m_Yes": 72
+    },
+    "CPulseCell_PickBestOutflowSelector": {
+      "m_OutflowList": 80,
+      "m_nCheckType": 72
+    },
+    "CPulseCell_RaceCursors": {
+      "m_OnFinished": 240,
+      "m_Outflows": 216
+    },
+    "CPulseCell_Step_CallExternalMethod": {
+      "m_ExpectedArgs": 240,
+      "m_MethodName": 216,
+      "m_OnFinished": 264,
+      "m_nAsyncCallMode": 256,
+      "m_nBlackboardIndex": 232
+    },
+    "CPulseCell_Step_PublicOutput": {
+      "m_OutputIndex": 72
+    },
+    "CPulseCell_Step_TestDomainEntFire": {
+      "m_Input": 72
+    },
+    "CPulseCell_TestEnums": {
+      "m_nReferenceColor": 72,
+      "m_nReferenceFlags": 76
+    },
+    "CPulseCell_TestWaitWithAutoTracepoints": {
+      "m_TracePrefix": 216,
+      "m_WakeResume": 224
+    },
+    "CPulseCell_TestWaitWithCursorState": {
+      "m_WakeFail": 288,
+      "m_WakeResume": 216
+    },
+    "CPulseCell_TestYieldWithObservables": {
+      "m_LiveFloatValue": 224,
+      "m_LiveStringValue": 376,
+      "m_WakeResume": 520,
+      "m_WatchForStringValue": 368,
+      "m_flWatchForFloatValue": 216
+    },
+    "CPulseCell_Test_MultiOutflow_WithParams": {
+      "m_Out1": 72,
+      "m_Out2": 144
+    },
+    "CPulseCell_Test_MultiOutflow_WithParams_Yielding": {
+      "m_AsyncChild1": 288,
+      "m_AsyncChild2": 360,
+      "m_Out1": 216,
+      "m_YieldResume1": 432,
+      "m_YieldResume2": 504
+    },
+    "CPulseCell_Timeline": {
+      "m_OnFinished": 248,
+      "m_TimelineEvents": 216,
+      "m_bWaitForChildOutflows": 240
+    },
+    "CPulseCell_Unknown": {
+      "m_UnknownKeys": 72
+    },
+    "CPulseCell_Value_Curve": {
+      "m_Curve": 72
+    },
+    "CPulseCell_Value_Gradient": {
+      "m_Gradient": 72
+    },
+    "CPulseCell_WaitForCursorsWithTag": {
+      "m_bTagSelfWhenComplete": 296,
+      "m_nDesiredKillPriority": 300
+    },
+    "CPulseCell_WaitForCursorsWithTagBase": {
+      "m_WaitComplete": 224,
+      "m_nCursorsAllowedToWait": 216
+    },
+    "CPulseCell_WaitForObservable": {
+      "m_Condition": 216,
+      "m_OnTrue": 360
+    },
+    "CPulseGraphDef": {
+      "m_BlackboardReferences": 296,
+      "m_CallInfos": 224,
+      "m_Cells": 104,
+      "m_Chunks": 80,
+      "m_Constants": 248,
+      "m_DomainIdentifier": 8,
+      "m_DomainSubType": 24,
+      "m_DomainValues": 272,
+      "m_InvokeBindings": 200,
+      "m_OutputConnections": 320,
+      "m_ParentMapName": 48,
+      "m_ParentXmlName": 64,
+      "m_PublicOutputs": 176,
+      "m_TempVarBanks": 152,
+      "m_Vars": 128
+    },
+    "CPulseGraphExecutionHistory": {
+      "m_mapCellDesc": 40,
+      "m_mapCursorDesc": 80,
+      "m_nInstanceID": 0,
+      "m_strFileName": 8,
+      "m_vecHistory": 16
+    },
+    "CPulseGraphInstance_TestDomain": {
+      "m_Tracepoints": 176,
+      "m_bExpectingCursorTerminatedDueToMaxInstructions": 164,
+      "m_bExpectingToDestroyWithYieldedCursors": 162,
+      "m_bExplicitTimeStepping": 161,
+      "m_bIsRunningUnitTests": 160,
+      "m_bQuietTracepoints": 163,
+      "m_bTestYesOrNoPath": 200,
+      "m_nCursorsTerminatedDueToMaxInstructions": 168,
+      "m_nNextValidateIndex": 172
+    },
+    "CPulseGraphInstance_TestDomain_Derived": {
+      "m_nInstanceValueX": 208
+    },
+    "CPulseRuntimeMethodArg": {
+      "m_Description": 56,
+      "m_Name": 0,
+      "m_Type": 64
+    },
+    "CPulseTurtleGraphicsCursor": {
+      "m_Color": 216,
+      "m_bPenUp": 232,
+      "m_flHeadingDeg": 228,
+      "m_vPos": 220
+    },
+    "CPulse_BlackboardReference": {
+      "m_BlackboardResource": 8,
+      "m_NodeName": 32,
+      "m_hBlackboardResource": 0,
+      "m_nNodeID": 24
+    },
+    "CPulse_CallInfo": {
+      "m_CallMethodID": 72,
+      "m_PortName": 0,
+      "m_RegisterMap": 24,
+      "m_nBreakDestChunk": 84,
+      "m_nBreakDestInstruction": 88,
+      "m_nEditorNodeID": 16,
+      "m_nSrcChunk": 76,
+      "m_nSrcInstruction": 80
+    },
+    "CPulse_Chunk": {
+      "m_InstructionDebugInfos": 32,
+      "m_Instructions": 0,
+      "m_Registers": 16,
+      "m_nTempVarBank": 48
+    },
+    "CPulse_Constant": {
+      "m_Type": 0,
+      "m_Value": 24
+    },
+    "CPulse_DomainValue": {
+      "m_RequiredRuntimeType": 16,
+      "m_Value": 8,
+      "m_nType": 0
+    },
+    "CPulse_InstructionDebug": {
+      "m_SequencePointName": 8,
+      "m_nFlowNodeID": 0,
+      "m_nValueNodeID": 4
+    },
+    "CPulse_InvokeBinding": {
+      "m_FuncName": 48,
+      "m_RegisterMap": 0,
+      "m_nCellIndex": 64,
+      "m_nSrcChunk": 68,
+      "m_nSrcInstruction": 72
+    },
+    "CPulse_OutflowConnection": {
+      "m_OutflowRegisterMap": 24,
+      "m_SourceOutflowName": 0,
+      "m_nDestChunk": 16,
+      "m_nInstruction": 20
+    },
+    "CPulse_OutputConnection": {
+      "m_Param": 48,
+      "m_SourceOutput": 0,
+      "m_TargetEntity": 16,
+      "m_TargetInput": 32
+    },
+    "CPulse_PublicOutput": {
+      "m_Args": 24,
+      "m_Description": 16,
+      "m_Name": 0
+    },
+    "CPulse_RegisterInfo": {
+      "m_OriginName": 32,
+      "m_Type": 8,
+      "m_nLastReadByInstruction": 92,
+      "m_nReg": 0,
+      "m_nWrittenByInstruction": 88
+    },
+    "CPulse_TempVarBankDefinition": {
+      "m_TempVars": 0
+    },
+    "CPulse_TempVarInfo": {
+      "m_Name": 0,
+      "m_Type": 16,
+      "m_bIsObservable": 44,
+      "m_nEditorNodeID": 40
+    },
+    "CPulse_Variable": {
+      "m_DefaultValue": 48,
+      "m_Description": 16,
+      "m_Metadata": 80,
+      "m_Name": 0,
+      "m_Type": 24,
+      "m_bIsObservable": 73,
+      "m_bIsPublicBlackboardVariable": 72,
+      "m_nEditorNodeID": 76,
+      "m_nKeysSource": 68
+    },
+    "CTestDomainDerived_Cursor": {
+      "m_nCursorValueA": 216,
+      "m_nCursorValueB": 220
+    },
+    "OutflowWithRequirements_t": {
+      "m_Connection": 0,
+      "m_DestinationFlowNodeID": 72,
+      "m_RequirementNodeIDs": 80,
+      "m_nCursorStateBlockIndex": 104
+    },
+    "PGDInstruction_t": {
+      "m_nBlackboardReferenceIdx": 36,
+      "m_nCallInfoIndex": 28,
+      "m_nChunk": 20,
+      "m_nCode": 0,
+      "m_nConstIdx": 32,
+      "m_nDestInstruction": 24,
+      "m_nDomainValueIdx": 34,
+      "m_nInvokeBindingIndex": 16,
+      "m_nReg0": 8,
+      "m_nReg1": 10,
+      "m_nReg2": 12,
+      "m_nTempVarIdx": 38,
+      "m_nVar": 4
+    },
+    "PulseCursorID_t": {
+      "m_Value": 0
+    },
+    "PulseCursorYieldToken_t": {
+      "m_Value": 0
+    },
+    "PulseDocNodeID_t": {
+      "m_Value": 0
+    },
+    "PulseGraphExecutionHistoryCursorDesc_t": {
+      "bWasAnObservableComputation": 40,
+      "flLastReferenced": 32,
+      "nLastValidEntryIdx": 36,
+      "nRetiredAtNodeID": 28,
+      "nSpawnNodeID": 24,
+      "vecAncestorCursorIDs": 0
+    },
+    "PulseGraphExecutionHistoryEntry_t": {
+      "childID": 48,
+      "flExecTime": 24,
+      "nCursorID": 0,
+      "nEditorID": 4,
+      "seqPoint": 8,
+      "tagName": 32,
+      "unFlags": 28
+    },
+    "PulseGraphExecutionHistoryNodeDesc_t": {
+      "strBindingName": 16,
+      "strCellDesc": 0
+    },
+    "PulseGraphInstanceID_t": {
+      "m_Value": 0
+    },
+    "PulseNodeDynamicOutflows_t": {
+      "m_Outflows": 0
+    },
+    "PulseRegisterMap_t": {
+      "m_Inparams": 0,
+      "m_InparamsWhichCanBeMoved": 16,
+      "m_Outparams": 32
+    },
+    "PulseRuntimeCallInfoIndex_t": {
+      "m_Value": 0
+    },
+    "PulseRuntimeCellIndex_t": {
+      "m_Value": 0
+    },
+    "PulseRuntimeChunkIndex_t": {
+      "m_Value": 0
+    },
+    "PulseRuntimeEntrypointIndex_t": {
+      "m_Value": 0
+    },
+    "PulseRuntimeInvokeIndex_t": {
+      "m_Value": 0
+    },
+    "PulseRuntimeOutputIndex_t": {
+      "m_Value": 0
+    },
+    "PulseRuntimeVarIndex_t": {
+      "m_Value": 0
+    },
+    "PulseSelectorOutflowList_t": {
+      "m_Outflows": 0
+    },
+    "TestComponent_t": {
+      "m_ComponentData": 8
+    }
+  }
+}

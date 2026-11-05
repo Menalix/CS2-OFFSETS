@@ -10,7 +10,7 @@ MODULES = {
     'soundsystem.dll', 'animationsystem.dll', 'host.dll', 'materialsystem2.dll',
     'networksystem.dll', 'panorama.dll', 'particles.dll', 'pulse_system.dll',
     'rendersystemdx11.dll', 'resourcesystem.dll', 'scenesystem.dll',
-    'schemasystem.dll', 'server.dll', 'steamaudio.dll', 'vphysics2.dll', 'offsets',
+    'schemasystem.dll', 'server.dll', 'steamaudio.dll', 'vphysics2.dll', 'worldrenderer.dll', 'buttons', 'interfaces', 'offsets',
 }
 
 
@@ -44,10 +44,12 @@ def main():
     if not all(data[key] for key in ('offsets', 'client.dll', 'engine2.dll')):
         raise ValueError('Required public data missing')
     # Validate the entire response before touching the previously mirrored dump.
-    exports = {key + '.json': value if key == 'offsets' else {key: value}
+    exports = {key + '.json': value if key in {'offsets', 'buttons', 'interfaces'} else {key: value}
                for key, value in data.items()}
     exports['metadata.json'] = {'source': 'https://hexui.com/offsets/',
-                                'build_id': build, 'manifest': manifest}
+                                'build_id': build, 'manifest': manifest,
+                                'button_count': sum(len(rows) for rows in data.get('buttons', {}).values()),
+                                'interface_count': sum(len(rows) for rows in data.get('interfaces', {}).values())}
     for name, value in exports.items():
         (ROOT / name).write_text(json.dumps(value, indent=2, sort_keys=True) + '\n', encoding='utf-8')
     for key in MODULES - data.keys():

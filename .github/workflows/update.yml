@@ -2,6 +2,10 @@ name: Update public offsets
 on:
   schedule:
     - cron: '13,43 * * * *'
+  push:
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/update.yml'
   workflow_dispatch:
 permissions:
   contents: write
@@ -14,6 +18,8 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - name: Test public export contracts
+        run: python3 -m unittest discover -s scripts -p 'test_*.py'
       - name: Fetch validated public dump
         run: python3 scripts/sync.py
       - name: Publish changes

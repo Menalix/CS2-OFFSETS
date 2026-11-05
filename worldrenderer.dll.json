@@ -1,0 +1,309 @@
+{
+  "worldrenderer.dll": {
+    "AggregateInstanceStreamOnDiskData_t": {
+      "m_BufferData": 8,
+      "m_DecodedSize": 0
+    },
+    "AggregateLODSetup_t": {
+      "m_fMaxObjectScale": 12,
+      "m_fSwitchDistances": 16,
+      "m_vLODOrigin": 0
+    },
+    "AggregateMeshInfo_t": {
+      "m_bHasTransform": 5,
+      "m_fEmissiveFactor": 40,
+      "m_instanceStreams": 36,
+      "m_nDrawCallIndex": 8,
+      "m_nInstanceStreamOffset": 24,
+      "m_nLODGroupMask": 6,
+      "m_nLODSetupIndex": 10,
+      "m_nLightProbeVolumePrecomputedHandshake": 20,
+      "m_nVertexAlbedoStreamOffset": 28,
+      "m_nVertexEmissiveStreamOffset": 32,
+      "m_nVisClusterMemberCount": 4,
+      "m_nVisClusterMemberOffset": 0,
+      "m_objectFlags": 16,
+      "m_vTintColor": 12
+    },
+    "AggregateRTProxySceneObject_t": {
+      "m_BLASes": 8,
+      "m_IBData": 72,
+      "m_InstanceAlbedoData": 88,
+      "m_InstanceEmissiveData": 104,
+      "m_Instances": 32,
+      "m_VBData": 56,
+      "m_nLayer": 0
+    },
+    "AggregateSceneObject_t": {
+      "m_aggregateMeshes": 16,
+      "m_allFlags": 0,
+      "m_anyFlags": 4,
+      "m_fragmentTransforms": 88,
+      "m_instanceStream": 10,
+      "m_lodSetups": 40,
+      "m_nLayer": 8,
+      "m_renderableModel": 112,
+      "m_vertexAlbedoStream": 12,
+      "m_vertexEmissiveStream": 14,
+      "m_visClusterMembership": 64
+    },
+    "AggregateVertexAlbedoStreamOnDiskData_t": {
+      "m_BufferData": 0
+    },
+    "AggregateVertexEmissiveStreamOnDiskData_t": {
+      "m_BufferData": 0
+    },
+    "BakedLightingInfo_t": {
+      "m_bBakedShadowsGamma20": 17,
+      "m_bCompressionEnabled": 18,
+      "m_bHasLightmaps": 16,
+      "m_bakedShadows": 48,
+      "m_lightMaps": 24,
+      "m_nChartPackIterations": 21,
+      "m_nLPVEncoding": 19,
+      "m_nLightmapEncoding": 20,
+      "m_nLightmapGameVersionNumber": 4,
+      "m_nLightmapVersionNumber": 0,
+      "m_nVradQuality": 22,
+      "m_vLightmapUvScale": 8
+    },
+    "BaseSceneObjectOverride_t": {
+      "m_nSceneObjectIndex": 0
+    },
+    "CEntityAttributeTable": {
+      "m_Attributes": 0,
+      "m_Names": 40
+    },
+    "CEntityComponentHelper": {
+      "m_flags": 8,
+      "m_nPriority": 24,
+      "m_pInfo": 16,
+      "m_pNext": 32
+    },
+    "CEntityIdentity": {
+      "m_PathIndex": 64,
+      "m_designerName": 32,
+      "m_fDataObjectTypes": 60,
+      "m_flags": 48,
+      "m_name": 24,
+      "m_nameStringTableIndex": 20,
+      "m_pAttributes": 72,
+      "m_pNext": 88,
+      "m_pNextByClass": 104,
+      "m_pPrev": 80,
+      "m_pPrevByClass": 96,
+      "m_worldGroupId": 56
+    },
+    "CEntityInstance": {
+      "m_CScriptComponent": 40,
+      "m_iszPrivateVScripts": 8,
+      "m_pEntity": 16
+    },
+    "CNetworkVarChainer": {
+      "m_PathIndex": 32
+    },
+    "CPulseCell_Base": {
+      "m_nEditorNodeID": 8
+    },
+    "CPulseCell_BaseYieldingInflow": {
+      "m_BaseFlow_OnAfterCancel": 72,
+      "m_BaseFlow_WhileActive": 144
+    },
+    "CPulseCell_Inflow_BaseEntrypoint": {
+      "m_EntryChunk": 72,
+      "m_RegisterMap": 80
+    },
+    "CPulseCell_Inflow_Method": {
+      "m_Args": 160,
+      "m_Description": 144,
+      "m_MethodName": 128,
+      "m_ReturnValues": 176,
+      "m_bIsPublic": 152
+    },
+    "CPulseCell_Inflow_Wait": {
+      "m_WakeResume": 216
+    },
+    "CScriptComponent": {
+      "m_scriptClassName": 48
+    },
+    "CVoxelVisibility": {
+      "m_EnclosedClusterListBlock": 124,
+      "m_EnclosedClustersBlock": 132,
+      "m_MasksBlock": 140,
+      "m_NodeBlock": 108,
+      "m_RegionBlock": 116,
+      "m_flGridSize": 96,
+      "m_nBaseClusterCount": 64,
+      "m_nPVSBytesPerCluster": 68,
+      "m_nSkyVisibilityCluster": 100,
+      "m_nSunVisibilityCluster": 104,
+      "m_nVisBlocks": 148,
+      "m_vMaxBounds": 84,
+      "m_vMinBounds": 72
+    },
+    "ClutterSceneObject_t": {
+      "m_Bounds": 0,
+      "m_flBeginCullSize": 164,
+      "m_flEndCullSize": 168,
+      "m_flags": 24,
+      "m_instancePositions": 32,
+      "m_instanceScales": 80,
+      "m_instanceTintSrgb": 104,
+      "m_materialGroup": 160,
+      "m_nLayer": 28,
+      "m_renderableModel": 152,
+      "m_tiles": 128
+    },
+    "ClutterTile_t": {
+      "m_BoundsWs": 8,
+      "m_nFirstInstance": 0,
+      "m_nLastInstance": 4
+    },
+    "EntComponentInfo_t": {
+      "m_nFlags": 36,
+      "m_nRuntimeIndex": 32,
+      "m_pBaseClassComponentHelper": 88,
+      "m_pCPPClassname": 8,
+      "m_pName": 0,
+      "m_pNetworkDataReferencedDescription": 16,
+      "m_pNetworkDataReferencedPtrPropDescription": 24
+    },
+    "EntityIOConnectionData_t": {
+      "m_flDelay": 40,
+      "m_inputName": 24,
+      "m_nTimesToFire": 44,
+      "m_outputName": 0,
+      "m_overrideParam": 32,
+      "m_paramMap": 48,
+      "m_targetName": 16,
+      "m_targetType": 8
+    },
+    "EntityIOQueuePrioritizedEvent_t": {
+      "m_PulseArguments": 64,
+      "m_flFireTime": 4,
+      "m_hActivator": 32,
+      "m_hCaller": 36,
+      "m_hEntTarget": 40,
+      "m_pTarget": 16,
+      "m_pTargetInput": 24,
+      "m_paramMap": 208,
+      "m_targetType": 8,
+      "m_variantValue": 48
+    },
+    "EntityKeyValueData_t": {
+      "m_connections": 8,
+      "m_keyValuesData": 32
+    },
+    "ExtraVertexStreamOverride_t": {
+      "m_extraBufferBinding": 16,
+      "m_nAdditionalMeshDrawPrimitiveFlags": 12,
+      "m_nDrawCallIndex": 8,
+      "m_nSubSceneObject": 4
+    },
+    "GameTick_t": {
+      "m_Value": 0
+    },
+    "GameTime_t": {
+      "m_Value": 0
+    },
+    "MaterialOverride_t": {
+      "m_nDrawCallIndex": 8,
+      "m_nSubSceneObject": 4,
+      "m_pMaterial": 16,
+      "m_vLinearTintColor": 24
+    },
+    "NodeData_t": {
+      "m_vMaxBounds": 24,
+      "m_vMinBounds": 12,
+      "m_vOrigin": 0,
+      "m_worldNodePrefix": 40
+    },
+    "PermEntityLumpData_t": {
+      "m_childLumps": 16,
+      "m_entityKeyValues": 40,
+      "m_name": 8
+    },
+    "RTProxyBLAS_t": {
+      "m_albedoFormat": 18,
+      "m_boundLs": 20,
+      "m_nBaseVertex": 12,
+      "m_nFirstIndex": 0,
+      "m_nIndexCount": 4,
+      "m_nVBByteOffset": 8,
+      "m_nVertexCount": 16,
+      "m_vVertexExtentLs": 56,
+      "m_vVertexOriginLs": 44
+    },
+    "RTProxyInstanceInfo_t": {
+      "m_albedoFormat": 1,
+      "m_emissiveFormat": 2,
+      "m_fEmissiveFactor": 20,
+      "m_mWorldFromLocal": 24,
+      "m_nBLASCount": 4,
+      "m_nBLASIndex": 8,
+      "m_nFlags": 0,
+      "m_nVertexAlbedoByteOffset": 12,
+      "m_nVertexEmissiveByteOffset": 16,
+      "m_vTintColorSRGB": 72
+    },
+    "SceneObject_t": {
+      "m_flEmissiveLightingBoost": 116,
+      "m_flFadeEndDistance": 56,
+      "m_flFadeStartDistance": 52,
+      "m_nCubeMapPrecomputedHandshake": 108,
+      "m_nLODOverride": 106,
+      "m_nLightProbeVolumePrecomputedHandshake": 112,
+      "m_nObjectID": 0,
+      "m_nObjectTypeFlags": 88,
+      "m_nOverlayRenderOrder": 104,
+      "m_renderable": 136,
+      "m_renderableModel": 128,
+      "m_skin": 80,
+      "m_vLightingOrigin": 92,
+      "m_vTintColor": 60,
+      "m_vTransform": 4
+    },
+    "VoxelVisBlockOffset_t": {
+      "m_nElementCount": 4,
+      "m_nOffset": 0
+    },
+    "WorldBuilderParams_t": {
+      "m_bAggregateInstanceStreams": 5,
+      "m_bBuildBakedLighting": 4,
+      "m_bakedLightingInfo": 8,
+      "m_flMinDrawVolumeSize": 0,
+      "m_nCompileFingerprint": 88,
+      "m_nCompileTimestamp": 80
+    },
+    "WorldNodeOnDiskBufferData_t": {
+      "m_inputLayoutFields": 8,
+      "m_nElementCount": 0,
+      "m_nElementSizeInBytes": 4,
+      "m_pData": 32
+    },
+    "WorldNode_t": {
+      "m_aggregateInstanceStreams": 192,
+      "m_aggregateSceneObjects": 48,
+      "m_bHasBakedGeometryFlag": 392,
+      "m_clutterSceneObjects": 72,
+      "m_extraVertexStreamOverrides": 120,
+      "m_extraVertexStreams": 168,
+      "m_grassFileName": 312,
+      "m_layerNames": 264,
+      "m_materialOverrides": 144,
+      "m_nodeLightingInfo": 320,
+      "m_rtProxies": 96,
+      "m_sceneObjectLayerIndices": 288,
+      "m_sceneObjects": 0,
+      "m_vertexAlbedoStreams": 216,
+      "m_vertexEmissiveStreams": 240,
+      "m_visClusterMembership": 24
+    },
+    "World_t": {
+      "m_builderParams": 0,
+      "m_entityLumps": 192,
+      "m_worldLightingInfo": 120,
+      "m_worldNodes": 96
+    }
+  }
+}

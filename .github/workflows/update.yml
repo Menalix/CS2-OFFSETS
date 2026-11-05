@@ -3,6 +3,7 @@ on:
   schedule:
     - cron: '13,43 * * * *'
   push:
+    branches: [main]
     paths:
       - 'scripts/**'
       - '.github/workflows/update.yml'

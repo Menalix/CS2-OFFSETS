@@ -113,7 +113,8 @@
       "m_flRealTime": 40
     },
     "EventClientPollNetworking_t": {
-      "m_nTickCount": 0
+      "m_nTickCount": 0,
+      "m_nTotalTicks": 4
     },
     "EventClientPostOutput_t": {
       "m_LoopState": 0,

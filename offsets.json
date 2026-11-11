@@ -1,26 +1,26 @@
 {
   "client.dll": {
-    "airSpreadScalePointer": 38597032,
-    "commandClockConversion": 12227184,
+    "airSpreadScalePointer": 38503488,
+    "commandClockConversion": 12176784,
     "controllerCurrentCommand": 1920,
-    "dwCSGOInput": 39324176,
-    "dwEntityList": 41024440,
+    "dwCSGOInput": 39231024,
+    "dwEntityList": 40931344,
     "dwGameEntitySystem_highestEntityIndex": 8480,
-    "dwGameRules": 39232504,
-    "dwGlobalVars": 35868936,
-    "dwGlowManager": 39219488,
-    "dwLocalPlayerController": 39069000,
-    "dwLocalPlayerPawn": 39233864,
-    "dwPlantedC4": 38603632,
-    "dwPrediction": 39233616,
-    "dwSensitivity": 39222344,
+    "dwGameRules": 39139304,
+    "dwGlobalVars": 35789496,
+    "dwGlowManager": 39126272,
+    "dwLocalPlayerController": 38973640,
+    "dwLocalPlayerPawn": 39140664,
+    "dwPlantedC4": 38509456,
+    "dwPrediction": 39140416,
+    "dwSensitivity": 39129144,
     "dwSensitivity_sensitivity": 88,
-    "dwViewAngles": 39325848,
-    "dwViewMatrix": 39256656,
-    "dwViewRender": 39259160,
-    "dwWeaponC4": 38596888,
-    "fireRenderTimeOffset": 7512,
-    "jumpImpulsePointer": 39024152,
+    "dwViewAngles": 39232696,
+    "dwViewMatrix": 39163456,
+    "dwViewRender": 39165960,
+    "dwWeaponC4": 38503344,
+    "fireRenderTimeOffset": 7576,
+    "jumpImpulsePointer": 38930568,
     "modelState": 448,
     "runtimeHitboxBoneName": 16,
     "runtimeHitboxCount": 40,
@@ -30,17 +30,17 @@
     "runtimeHitboxStride": 112,
     "runtimeModelMeshCount": 112,
     "runtimeModelMeshes": 120,
-    "strafingBiasPointer": 38597320,
-    "strafingEnabledPointer": 38597304,
-    "strafingScalePointer": 38597336,
-    "teammatesAreEnemiesPointer": 38543744,
+    "strafingBiasPointer": 38503776,
+    "strafingEnabledPointer": 38503760,
+    "strafingScalePointer": 38503792,
+    "teammatesAreEnemiesPointer": 38450000,
     "teammatesAreEnemiesValue": 88,
-    "userCommandArray": 35819424,
+    "userCommandArray": 35740336,
     "weaponDataPointer": 904
   },
   "engine2.dll": {
-    "dwBuildNumber": 7053352,
-    "dwNetworkGameClient": 10193088,
+    "dwBuildNumber": 7023896,
+    "dwNetworkGameClient": 10156848,
     "dwNetworkGameClient_clientTickCount": 920,
     "dwNetworkGameClient_deltaTick": 588,
     "dwNetworkGameClient_isBackgroundMap": 2888767,
@@ -48,17 +48,17 @@
     "dwNetworkGameClient_maxClients": 576,
     "dwNetworkGameClient_serverTickCount": 588,
     "dwNetworkGameClient_signOnState": 560,
-    "dwWindowHeight": 10211308,
-    "dwWindowWidth": 10211304
+    "dwWindowHeight": 10175124,
+    "dwWindowWidth": 10175120
   },
   "inputsystem.dll": {
     "dwInputSystem": 289728
   },
   "matchmaking.dll": {
-    "dwGameTypes": 1773520
+    "dwGameTypes": 1765312
   },
   "soundsystem.dll": {
-    "dwSoundSystem": 5448736,
+    "dwSoundSystem": 5448816,
     "dwSoundSystem_engineViewData": 108
   }
 }
